@@ -19,9 +19,68 @@ main{
 	display: flex;
 	flex-direction:row;
 	flex-wrap: wrap;
+	width: 80%;
+}
+h1,h2,h3{
+	margin: 0;
 }
 section{
-	padding:15px;
+	padding:10px;
 	margin:5px;
 	background: #fff;
 }
+.sec1{
+	width: 67.9%;
+}
+.sec2{
+	width: 30%;
+	display: flex;
+}
+.sec2 div{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.sec2 div img{
+	width: 90px;
+}
+.sec2 div:first-child img{
+	width: 100px;
+	margin: 15px;
+}
+.sec2 div p{
+	font-size:15px;
+}
+
+.sec3{
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: flex-end;
+
+}
+.sec3 img{
+	width: 45%;
+	margin: 0 auto;
+}
+.sec3 p:last-child{
+	align-self: flex-end;
+} 
+
+.sec4{
+	width: 67.9%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.sec5{
+	width:47%;
+}
+.sec6{
+	width:36.9%;
+}
+.sec7{
+	width: 13%;
+}
+div
