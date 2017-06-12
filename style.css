@@ -8,6 +8,7 @@ html, body {
 	justify-content:center;
 	align-items:center;
 	flex-direction:column;
+	width: 100%;
 }
 body{
 	background: #D3D3D3;
@@ -30,7 +31,7 @@ section{
 	background: #fff;
 }
 .sec1{
-	width: 67.9%;
+	width:67.9%;
 }
 .sec2{
 	width: 30%;
@@ -66,7 +67,7 @@ section{
 }
 .sec3 p:last-child{
 	align-self: flex-end;
-} 
+}
 
 .sec4{
 	width: 67.9%;
@@ -74,11 +75,17 @@ section{
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+.sec4 h2{
+	font-size: 21px;
+}
+.sec4 ul{
+	justify-content: flex-end;
+}
 .sec5{
 	width:47%;
 }
 .sec6{
-	width:36.9%;
+	width:37%;
 }
 .sec7{
 	width: 13%;
