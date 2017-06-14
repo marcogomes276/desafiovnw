@@ -12,6 +12,7 @@ html, body {
 }
 body{
 	background: #D3D3D3;
+	font-family: arial;
 }
 img{
 	width: 100px;
@@ -56,30 +57,36 @@ section{
 
 .sec3{
 	width: 30%;
-	display: flex;
-	flex-wrap: wrap;	
-	justify-content: flex-end;
-
 }
 .sec3 img{
-	width: 45%;
-	margin: 0 auto;
+	width: 46%;
+	margin: 0 1%;
 }
 .sec3 p:last-child{
-	align-self: flex-end;
+	text-align: right;
 }
 
 .sec4{
 	width: 67.9%;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
+}
+.sec4 img{
+	margin: 10px;
 }
 .sec4 h2{
 	font-size: 21px;
 }
-.sec4 ul{
-	justify-content: flex-end;
+.sec4 h3{
+	padding: 10px;
+}
+.sec4 div ul{
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+}
+.sec4 div ul li:before{
+	content:"- ";
 }
 .sec5{
 	width:47%;
@@ -87,7 +94,21 @@ section{
 .sec6{
 	width:37%;
 }
+.sec6 img{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .sec7{
 	width: 13%;
+
 }
-div
+.sec7 ul{
+	padding: 0;
+	margin: 20px;
+}
+@font-face{
+	font-family: "Times New Roman - italico";
+	src: url(fonts/timesi.ttf);
+}
