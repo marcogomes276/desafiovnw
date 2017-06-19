@@ -28,14 +28,15 @@ h1,h2,h3{
 }
 section{
 	padding:10px;
-	margin:5px;
+	margin:1%;
 	background: #fff;
+	box-shadow: 8px 8px 20px #888;
 }
 .sec1{
-	width:67.9%;
+	width:65%;
 }
 .sec2{
-	width: 30%;
+	width: 31%;
 	display: flex;
 }
 .sec2 div{
@@ -52,61 +53,92 @@ section{
 	margin: 15px;
 }
 .sec2 div p{
-	font-size:15px;
+	font-size:14px;
+	text-align: center;
 }
 
 .sec3{
-	width: 30%;
+	width: 31%;
 }
+
 .sec3 img{
 	width: 46%;
 	margin: 0 1%;
 }
+.sec3 p{
+	font-family: "Times New Roman - italico";
+	font-size: 17px;
+}
 .sec3 p:last-child{
 	text-align: right;
+	font-family: arial;
+	font-size: 15px;
 }
 
 .sec4{
-	width: 67.9%;
+	width: 65%;
 	display: flex;
 	flex-flow: row wrap;
 }
-.sec4 img{
-	margin: 10px;
-}
+
 .sec4 h2{
-	font-size: 21px;
+	font-size: 17px;
+	margin-left: 3px;
+	padding:0;
+	padding-top: 10px;
 }
-.sec4 h3{
-	padding: 10px;
+.sec4 div {
+	width: 48%;
+	margin: 0 1%;
+}
+.sec4 div img{
+	width: 45%;
+	margin: 5px;
+	margin-left: 5%;
+}
+.sec4 div h3{
+	padding: 0;
+	margin: 0;
+	font-size:15px;
 }
 .sec4 div ul{
 	list-style: none;
 	padding: 0;
-	margin: 10px;
+	margin: 0;
+	font-size: 14px;
 }
 .sec4 div ul li:before{
 	content:"- ";
 }
 .sec5{
-	width:47%;
+	width:58%;
 }
 .sec6{
-	width:37%;
-}
-.sec6 img{
-	width: 40%;
+	width:23.9%;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
 }
+.sec6 h3{
+	width: 100%;
+	font-size: 17px;
+}
+.sec6 img{
+	width: 80%;
+}
 .sec7{
-	width: 13%;
-
+	width: 12%;
+}
+.sec7 h2 {
+	font-size: 17px;
 }
 .sec7 ul{
 	padding: 0;
 	margin: 20px;
+}
+.sec7 ul li{
+	margin-bottom: 7px;
 }
 @font-face{
 	font-family: "Times New Roman - italico";
